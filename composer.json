@@ -15,7 +15,7 @@
     },
     "autoload": {
         "classmap": ["src/Spec/validator-generated.php"],
-        "psr-4": {"open20\\AMP\\": "src"}
+        "psr-4": {"Lullabot\\AMP\\": "src"}
     },
     "require-dev": {
         "php" : ">=5.5.0",
