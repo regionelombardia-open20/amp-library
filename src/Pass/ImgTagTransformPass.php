@@ -309,9 +309,9 @@ class ImgTagTransformPass extends BasePass
         } else if (!empty($urlc['path'])) {
             // Is there a leading '/' then the path is absolute. Simply prefix the server url
             if (strpos($urlc['path'], '/') === 0 && !empty($this->options['server_url'])) {
-                $src = $this->options['server_url'] . $urlc['path'];
+                $src = $this->options['server_url'] . $urlc['path'] . (!empty($this->options['url_with_query']) ? '?' . $urlc['query'] : '');
             } else if (!empty($this->options['base_url_for_relative_path'])) {
-                $src = $this->options['base_url_for_relative_path'] . $urlc['path'];
+                $src = $this->options['base_url_for_relative_path'] . $urlc['path'] . (!empty($this->options['url_with_query']) ? '?' . $urlc['query'] : '');
             } else {
                 $src = false;
             }
