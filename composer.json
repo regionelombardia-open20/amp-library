@@ -1,12 +1,6 @@
 {
     "name": "open20/amp",
     "description": "A set of useful classes and utilities to convert html to AMP html (See https://www.ampproject.org/)",
-    "authors": [
-        {
-            "name": "-",
-            "email": "-"
-        }
-    ],
     "license": "Apache-2.0",
     "keywords": ["Drupal", "AMP", "mobile"],
     "homepage": "https://github.com/regionelombardia-open20/amp-library",
