@@ -19,7 +19,7 @@
     },
     "require-dev": {
         "php" : ">=5.5.0",
-        "phpunit/phpunit": "4.8.* || ^6",
-        "symfony/console": "^2.7.0"
+        "phpunit/phpunit": "*",
+        "symfony/console": "*"
     }
 }
